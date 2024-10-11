@@ -1,0 +1,17 @@
+name: MCHomesPlugin
+version: '1.0-SNAPSHOT'
+main: org.main.mchomesplugin.MCHomesPlugin
+api-version: '1.21'
+commands:
+  sethome:
+    description: Set a home to return too.
+    usage: /<command> <name>
+  home:
+    description: Teleport to your home.
+    usage: /<command> <name>
+  homes:
+    description: Show all the homes you have saved.
+    usage: /<command>
+  deletehome:
+    description: Delete a saved home.
+    usage: /<command> <name>
